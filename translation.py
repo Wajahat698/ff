@@ -45,10 +45,10 @@ def clean_text(text):
     return re.sub(r"[^\w\s]", "", text.lower())
 
 # ----------- Load All Models Once -----------
-fr_en_tokenizer, fr_en_model = load_model_and_tokenizer("models/fine_tuned_fr_en_model")
-en_fr_tokenizer, en_fr_model = load_model_and_tokenizer("models/fine_tuned_en_fr_model")
-sw_en_tokenizer, sw_en_model = load_model_and_tokenizer("models/fine_tuned_sw_en_model")
-en_sw_tokenizer, en_sw_model = load_model_and_tokenizer("models/fine_tuned_en_sw_model")
+fr_en_tokenizer, fr_en_model = load_model_and_tokenizer("fine_tuned_fr_en_model")
+en_fr_tokenizer, en_fr_model = load_model_and_tokenizer("fine_tuned_en_fr_model")
+sw_en_tokenizer, sw_en_model = load_model_and_tokenizer("fine_tuned_sw_en_model")
+en_sw_tokenizer, en_sw_model = load_model_and_tokenizer("fine_tuned_en_sw_model")
 
 # ----------- Main Interface -----------
 def translate_input(sentence):
