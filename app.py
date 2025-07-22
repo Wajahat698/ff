@@ -24,7 +24,7 @@ def extract_models():
         if not os.path.exists("models/fine_tuned_fr_en_model"):
             logger.info("Downloading model bundle...")
             gdown.download(
-                "https://drive.google.com/uc?id=14wDgRkXHUlSv1nPRJDFgqByL811XMyU9",
+                "https://limewire.com/d/V5bkI#W5cHADsi1N",
                 "bundle.zip",
                 quiet=False
             )
