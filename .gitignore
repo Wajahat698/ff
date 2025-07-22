@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+venv/
+fine_tuned_*/
+data*/
+.DS_Store
+*.pt
+*.ckpt
