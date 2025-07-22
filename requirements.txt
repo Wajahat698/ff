@@ -4,3 +4,4 @@ torch
 langdetect
 pandas
 gdown
+SentencePiece
