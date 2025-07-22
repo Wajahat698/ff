@@ -11,7 +11,7 @@ def index():
 @app.route("/translate", methods=["POST"])
 def translate_text():
     try:
-        from models.translation import translate_input  # delay import
+        from translation import translate_input
         data = request.get_json()
         sentence = data.get("sentence")
         result = translate_input(sentence)
